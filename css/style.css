@@ -39,12 +39,14 @@ html{
 
 /* Navigation Bar: Logo and Image */
 #logo{
-    margin: 10px 34px;
+    margin: 6px 16px;
+    
 }
 
 #logo img{
-    height: 59px;
+    height: 49px;
     margin: 3px 6px;
+   
 }
 
 
@@ -89,7 +91,7 @@ html{
 #home::before{ 
     content: "";
     position: absolute;
-    background: url('../.png') no-repeat center center/cover;
+    background: url('') no-repeat center center/cover;
     height: 618px;
     top:0px;
     left:0px;
@@ -117,26 +119,31 @@ html{
     margin: 34px;
     display: flex;
     
+    
 }
 #services .box{ 
     border: 2px solid brown;
     padding: 34px;
     margin: 2px 55px;
     border-radius: 28px;
-    background: #f2f2f2;
+    background: #4605a01d;
     margin-bottom: 20px;
+   
+    
 }
 
-#services .box img{ 
-   height: 160px;
-   margin: auto;
-   display: block;
-}
+
 
 #services .box p{
     font-family: 'Bree Serif', serif;
+    
 
 } 
+#services .box img{ 
+    height: 50px;
+    margin: auto;
+    display: block;
+ }
 /*
 #services{
     margin: 34px;
