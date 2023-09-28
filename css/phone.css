@@ -65,6 +65,9 @@
 
 
 /* Contact us section */
+#contact{
+    position: relative;
+}
 #contact-box form{
     width:80%;
 }
