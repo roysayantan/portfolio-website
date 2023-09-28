@@ -78,3 +78,12 @@
     font-size: 13px;
     padding: 4px 8px;
 }
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+    padding: 2px;
+}
