@@ -460,6 +460,10 @@ footer{
 li{
     list-style: none;
   }
-
+.whatsimg{
+    position:absolute;
+   right: 2px;
+   height: 20px;
+}
 
 
