@@ -99,7 +99,7 @@ html{
     width: 100%;
     z-index: -1;
     opacity:0.89;
-    background-color: rgb(250, 252, 250);
+    /* background-color: rgb(250, 252, 250); */
 }
 
 #home h1{
