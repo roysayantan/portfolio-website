@@ -25,4 +25,13 @@ This portfolio website provides a comprehensive overview of Sayantan's academic 
 - **Google Fonts**: For custom typography.
 - **Font Awesome**: For social media icons.
 
+## Usage
 
+To view the website locally:
+
+1. Clone this repository to your local machine.
+2. Open the `index.html` file in your web browser.
+
+To deploy the website:
+
+1. Upload the contents of this repository to your web server.
