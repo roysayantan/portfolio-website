@@ -1,40 +1,28 @@
-Sayantan's Portfolio Website
-This repository contains the source code for Sayantan's personal portfolio website.
+# Sayantan's Portfolio Website
 
-Table of Contents
-Introduction
-Features
-Usage
-Contributing
+Welcome to Sayantan's Portfolio Website! This website showcases Sayantan's skills, education, projects, and contact information.
 
-Introduction
-This portfolio website serves as an online showcase of Sayantan's works, projects, skills, and contact information. It is designed to provide visitors with information about Sayantan's background, education, skills, projects, and ways to get in touch.
 
-Features
-Navigation bar with links to home, about me, download CV, and contact me sections
-Home section with a brief introduction and a call-to-action button to download the CV
-About me section with sub-sections for education, skills, and my works
-Education sub-section listing the institutions attended and degrees earned
-Skills sub-section listing programming languages, web technologies, and databases that Sayantan is familiar with
-My works sub-section with links to view certifications and projects
-Address information section with a map and permanent and residential addresses
-Social links section with links to Sayantan's profiles on various social media platforms
-Contact information section with a form for visitors to send a message, with fields for name, email, phone number, and message
-Footer with a copyright notice
-Usage
-To view the website locally:
 
-Clone this repository to your local machine.
-Open the index.html file in your web browser.
-To deploy the website:
+## Overview
 
-Upload the contents of this repository to your web server.
-Built With
-HTML
-CSS
-JavaScript
-Contributing
-Contributions are not currently being accepted.
+This portfolio website provides a comprehensive overview of Sayantan's academic background, technical skills, completed projects, and ways to get in touch. The website is designed to be responsive and user-friendly, ensuring a seamless experience across different devices and screen sizes.
 
+## Features
+
+- **Home Section**: Brief introduction and links to download the CV and contact via WhatsApp.
+- **About Me Section**: Detailed information about Sayantan's education and skills.
+- **My Works Section**: Buttons to view certifications and projects.
+- **Address Section**: Permanent and residential address details with an embedded Google Map.
+- **Social Links**: Links to social media profiles (Facebook, Twitter, Instagram, GitHub, YouTube).
+- **Contact Form**: Form to send messages directly to Sayantan's email.
+
+## Technologies Used
+
+- **HTML5**: For structuring the content.
+- **CSS3**: For styling the website.
+- **JavaScript**: For form submission and interactivity.
+- **Google Fonts**: For custom typography.
+- **Font Awesome**: For social media icons.
 
 
