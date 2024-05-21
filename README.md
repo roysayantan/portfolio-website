@@ -32,6 +32,4 @@ To view the website locally:
 1. Clone this repository to your local machine.
 2. Open the `index.html` file in your web browser.
 
-To deploy the website:
 
-1. Upload the contents of this repository to your web server.
