@@ -1,12 +1,13 @@
-# Sayantan's Portfolio Website
+# Personal Portfolio
 
-Welcome to Sayantan's Portfolio Website! This website showcases Sayantan's skills, education, projects, and contact information.
+This is my personal portfolio website built to showcase my works, skills, and contact information.
 
 
 
-## Overview
+## Description
 
-This portfolio website provides a comprehensive overview of Sayantan's academic background, technical skills, completed projects, and ways to get in touch. The website is designed to be responsive and user-friendly, ensuring a seamless experience across different devices and screen sizes.
+This website serves as an online resume or portfolio, providing visitors with information about my education, skills, projects, and contact details. It includes sections such as Home, About Me, My Works, Contact Me, and Social Links.
+
 
 ## Features
 
