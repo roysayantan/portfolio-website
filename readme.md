@@ -35,11 +35,11 @@ I'm Sayantan Roy, a B.Tech Computer Science Engineering student from Kolkata. I'
 
 ### About Section
 
-<kbd><img width="1099" alt="image" src="https://user-images.githubusercontent.com/81607668/135276620-e8212cea-cccc-4532-969a-241f107b459b.png"></kbd>
+<kbd><img width="1099" alt="image" src="Screenshot1.png"></kbd>
 
 ### Portfolio Section
 
-<kbd><img width="476" alt="Screenshot 2021-09-29 at 5 58 48 PM" src="https://user-images.githubusercontent.com/81607668/135276747-73e27341-bfcf-4b32-9a8f-92deedc067c5.png"></kbd>
+<kbd><img width="476" alt="Screenshot 2021-09-29 at 5 58 48 PM" src="Screenshot2.png"></kbd>
 
 
 
