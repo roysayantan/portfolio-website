@@ -5,47 +5,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <!-- Link to external CSS file -->
     <link rel="stylesheet" href="style.css">
+    <!-- Link to Font Awesome for icons -->
     <script src="https://kit.fontawesome.com/76f2e09027.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <!-- Header section -->
     <header id="header">
         <div class="container">
             <nav>
+                <!-- Logo image -->
                 <img src="logo.png" alt="Website Logo" class="logo">
+                <!-- Navigation menu -->
                 <ul id="sidemenu">
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#header" aria-label="Go to Home">Home</a></li>
+                    <li><a href="#about" aria-label="Go to About">About</a></li>
+                    <li><a href="#services" aria-label="Go to Portfolio">Portfolio</a></li>
+                    <li><a href="#contact" aria-label="Go to Contact">Contact</a></li>
+                    <!-- Close menu icon -->
                     <i class="fas fa-times" id="closemenu" aria-label="Close menu"></i>
                 </ul>
+                <!-- Open menu icon -->
                 <i class="fas fa-bars" id="openmenu" aria-label="Open menu"></i>
             </nav>
+            <!-- Header text -->
             <div class="header-text">
                 <h1>Hi, I'M <span>SAYANTAN</span> <br>ROY from KOLKATA.</h1>
             </div>
         </div>
     </header>
+
     <main>
+        <!-- About section -->
         <section id="about">
             <div class="container">
                 <div class="row">
+                    <!-- About section image -->
                     <div class="about-col-1">
                         <img src="SayantanRoyPhoto.jpg" alt="Sayantan Roy">
                     </div>
+                    <!-- About section text -->
                     <div class="about-col-2">
                         <h1 class="sub-title">About Me</h1>
-                        <p>Hi there! I'm a B.Tech Computer Science Engineering student . The world of technology keeps me constantly buzzing with excitement,
-                            and I'm always on the lookout for ways to refine my skillset. My proactive approach and
-                            insatiable curiosity for learning fuel my passion to make a significant impact in the tech
-                            industry.</p>
+                        <p>Hi there! I'm a B.Tech Computer Science Engineering student. The world of technology keeps me constantly buzzing with excitement, and I'm always on the lookout for ways to refine my skillset. My proactive approach and insatiable curiosity for learning fuel my passion to make a significant impact in the tech industry.</p>
+                        <!-- Tabs for skills, experience, and education -->
                         <div class="tab-titles">
                             <button class="tab-links active-link" data-tab="skills">Skills</button>
                             <button class="tab-links" data-tab="experience">Experience</button>
                             <button class="tab-links" data-tab="education">Education</button>
                         </div>
+                        <!-- Skills tab content -->
                         <div class="tab-contents active-tab" id="skills">
                             <ul>
                                 <li><span>Programming Languages:</span><br>C, PYTHON, JAVA</li>
@@ -53,15 +64,17 @@
                                 <li><span>Databases:</span><br>SQL</li>
                             </ul>
                         </div>
+                        <!-- Experience tab content -->
                         <div class="tab-contents" id="experience">
                             <ul>
                                 <li><span>No Experiences</span></li>
                             </ul>
                         </div>
+                        <!-- Education tab content -->
                         <div class="tab-contents" id="education">
                             <ul>
-                                <li><span>B.Tech:</span><br>Collage Name</li>
-                                <li><span>CLASS 12:</span><br> School Name</li>
+                                <li><span>B.Tech:</span><br>College Name</li>
+                                <li><span>CLASS 12:</span><br>School Name</li>
                                 <li><span>CLASS 10:</span><br>School Name</li>
                             </ul>
                         </div>
@@ -69,117 +82,103 @@
                 </div>
             </div>
         </section>
+
+        <!-- Portfolio section -->
         <section id="services">
             <div class="container">
                 <h1 class="sub-title">My Portfolio</h1>
+                <!-- Tabs for projects and courses -->
                 <div class="services-tabs">
                     <button class="service-tab active-link" data-tab="project">Projects</button>
                     <button class="service-tab" data-tab="course">Courses & Certificates</button>
                 </div>
+                <!-- Projects tab content -->
                 <div class="service-content active-service" id="project">
                     <h2 class="sub-title">My Projects</h2>
                     <div class="project-list">
                         <div>
                             <h3>Personal Portfolio Website</h3>
-                            <p>Developed a responsive weather application that provides real-time weather information
-                                for any city in the world.</p>
+                            <p>Developed a responsive weather application that provides real-time weather information for any city in the world.</p>
                             <p>Technologies used: HTML, CSS, JavaScript.</p>
-                            <a href="#" target="_blank"> <span>
-                                    More...</span></a>
+                            <a href="#" target="_blank"><span>More...</span></a>
                         </div>
                         <div>
                             <h3>Weather App</h3>
-                            <p>Developed a responsive weather application that provides real-time weather information
-                                for any city in the world.</p>
+                            <p>Developed a responsive weather application that provides real-time weather information for any city in the world.</p>
                             <p>Technologies used: HTML, CSS, JavaScript, OpenWeatherMap API.</p>
-                            <a href="#" target="_blank"> <span>
-                                    More...</span></a>
+                            <a href="#" target="_blank"><span>More...</span></a>
                         </div>
                     </div>
-                    <!-- Add more projects here -->
+                    <!-- Additional projects -->
                     <div class="project-list hidden">
-                        <!-- Additional projects -->
                         <div>
                             <h3>App Design</h3>
-                            <p> Design a mobile app to address a specific problem or need.</p>
+                            <p>Design a mobile app to address a specific problem or need.</p>
                             <p>Technologies used: HTML, CSS, JavaScript.</p>
-                            <a href="#" target="_blank"> <span>
-                                    More...</span></a>
+                            <a href="#" target="_blank"><span>More...</span></a>
                         </div>
                     </div>
-
+                    <!-- Show more button -->
                     <button id="showMoreBtn" class="btn" onclick="showMore()"> Show More </button>
                 </div>
+                <!-- Courses tab content -->
                 <div class="service-content" id="course">
                     <h2 class="sub-title">Courses & Certificates</h2>
                     <div class="course-list">
                         <ul>
-                            <li><a href="#"
-                                    target="_blank">Google IT Support Specialization</a> <br> Coursera (September, 2023)
-                            </li>
-                            <li><a href="#"
-                                    target="_blank">Write Professional Emails in English</a> <br> Coursera (January, 2022)
-                            </li>
-                            <li><a href="#"
-                                    target="_blank">Programming for Everybody (Getting Started with Python)</a> <br>  Coursera (March, 2022)
-                            </li>
-                            <!-- Add more courses here -->
+                            <li><a href="#" target="_blank">Google IT Support Specialization</a> <br> Coursera (September, 2023)</li>
+                            <li><a href="#" target="_blank">Write Professional Emails in English</a> <br> Coursera (January, 2022)</li>
+                            <li><a href="#" target="_blank">Programming for Everybody (Getting Started with Python)</a> <br> Coursera (March, 2022)</li>
                         </ul>
-
                     </div>
+                    <!-- Additional courses -->
                     <div class="course-list hidden">
                         <ul>
-                            <li><a href="#"
-                                    target="_blank">Responsive Website Basics: Code with HTML, CSS, and JavaScript</a> <br> Coursera (May , 2022)
-                            </li>
-                            
-                            <!-- Add more courses here -->
+                            <li><a href="#" target="_blank">Responsive Website Basics: Code with HTML, CSS, and JavaScript</a> <br> Coursera (May, 2022)</li>
                         </ul>
-
                     </div>
+                    <!-- Show more button -->
                     <button id="showMoreBtnCourses" class="btn"> Show More </button>
-
                 </div>
-
             </div>
         </section>
+
+        <!-- Contact section -->
         <section id="contact">
             <div class="container">
                 <div class="row">
                     <div class="contact-left">
                         <h1 class="sub-title">Contact Me</h1>
+                        <!-- Contact information -->
                         <p><i class="fa-solid fa-envelope"></i> *****@gmail.com</p>
                         <p><i class="fa-solid fa-phone"></i> +91 0000000000</p>
+                        <!-- Social media links -->
                         <div class="social-icons">
-                            <a href="#"
-                                target="_blank"><i class="fab fa-facebook"></i></a>
-                            <a href="#" target="_blank"><i
-                                    class="fab fa-github-square"></i></a>
-                            <a href="#" target="_blank"><i
-                                    class="fab fa-instagram"></i></a>
-                            <a href="#" target="_blank"><i
-                                    class="fab fa-linkedin"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-github-square"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
                         </div>
+                        <!-- Download CV button -->
                         <a href="#" target="_blank" class="btn btn2">Download CV</a>
                     </div>
                     <div class="contact-right">
+                        <!-- Contact form -->
                         <form action="contact.php" method="post">
                             <label for="name">Your Name</label>
                             <input type="text" id="name" name="Name" placeholder="Your Name" required>
-                          
                             <label for="email">Your Email</label>
                             <input type="email" id="email" name="Email" placeholder="Your Email" required>
-                          
                             <label for="message">Your Message</label>
                             <textarea id="message" name="Message" rows="6" placeholder="Your Message" required></textarea>
-                          
                             <button type="submit" class="btn btn2">Submit</button>
-                          </form>
+                        </form>
                     </div>
                 </div>
             </div>
         </section>
     </main>
+    <!-- Link to external JavaScript file -->
     <script src="script.js"></script>
 </body>
 
