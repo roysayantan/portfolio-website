@@ -26,7 +26,7 @@ I'm Sayantan Roy, a B.Tech Computer Science Engineering student from Kolkata. I'
 **How to Run the Project**
 ----------------------
 
-1. Clone the repository: `git clone https://github.com/your-username/portfolio-website.git`
+1. Clone the repository: `git clone https://github.com/roysayantan/portfolio-website.git`
 2. Navigate to the project directory: `cd portfolio-website`
 3. Open the `index.html` file in your web browser.
 
