@@ -41,26 +41,34 @@ document.querySelectorAll('.service-tab').forEach(tab => {
     });
 });
 
-// Show more projects functionality
-document.getElementById('showMoreBtn').addEventListener('click', function () {
+// Show more Projects functionality
+function showMore() {
     const hiddenProjects = document.querySelector('.project-list.hidden');
-    // Check if there are hidden projects
-    if (hiddenProjects) {
-        // Show the hidden projects
-        hiddenProjects.classList.remove('hidden');
-        // Hide the "Show More" button
-        this.classList.add('hidden');
+    const showMoreButton = document.getElementById('showMoreBtn');
+    
+    // Toggle the hidden class
+    if (hiddenProjects.style.display === "none" || hiddenProjects.style.display === "") {
+        hiddenProjects.style.display = "block";
+        showMoreButton.textContent = "Show Less"; // Change button text to "Show Less"
+    } else {
+        hiddenProjects.style.display = "none";
+        showMoreButton.textContent = "Show More"; // Change button text back to "Show More"
     }
-});
+}
+
+  
 
 // Show more courses functionality
-document.getElementById('showMoreBtnCourses').addEventListener('click', function () {
+function showMoreCourses() {
     const hiddenCourses = document.querySelector('.course-list.hidden');
-    // Check if there are hidden courses
-    if (hiddenCourses) {
-        // Show the hidden courses
-        hiddenCourses.classList.remove('hidden');
-        // Hide the "Show More" button
-        this.classList.add('hidden');
+    const showMoreButton = document.getElementById('showMoreBtnCourses');
+    
+    // Toggle the hidden class
+    if (hiddenCourses.style.display === "none" || hiddenCourses.style.display === "") {
+        hiddenCourses.style.display = "block";
+        showMoreButton.textContent = "Show Less"; // Change button text to "Show Less"
+    } else {
+        hiddenCourses.style.display = "none";
+        showMoreButton.textContent = "Show More"; // Change button text back to "Show More"
     }
-});
+}
