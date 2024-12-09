@@ -51,7 +51,7 @@ I'm Sayantan Roy, a B.Tech Computer Science Engineering student from Kolkata. I'
 
 * [Font Awesome](https://fontawesome.com/) for the icons
 * [Google Fonts](https://fonts.google.com/) for the fonts
-* [Unsplash](https://unsplash.com/) for the background image
+
 
 **Changelog**
 ---------
