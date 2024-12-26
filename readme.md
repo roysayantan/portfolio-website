@@ -53,17 +53,3 @@ I'm Sayantan Roy, a B.Tech Computer Science Engineering student from Kolkata. I'
 * [Google Fonts](https://fonts.google.com/) for the fonts
 
 
-**Changelog**
----------
-
-* 0.1.0 - Initial release
-* 0.2.0 - Added responsive design
-* 0.3.0 - Added contact form
-* 0.4.0 - Added download CV button
-* 0.5.0 - Added social media links
-* 0.6.0 - Added more projects and courses/certificates
-* 0.7.0 - Improved accessibility and performance
-* 0.8.0 - Fixed bugs and improved code quality
-* 0.9.0 - Added more features and improved design
-* 1.0.0 - Final release
-
